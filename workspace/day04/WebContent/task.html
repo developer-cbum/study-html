@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입 만들기</title>
+<style>
+	
+	
+	li {
+		list-style: none;
+	}
+
+
+	main {
+	 width: 50%;
+	 margin-left: 35%;
+	 text-align: left;
+	 min-width: 290px;
+    max-width: 460px;
+	}
+	
+	
+	.join-content {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.join-content label {
+		display: flex;
+		margin-bottom: 15px;
+	}
+	
+	
+	.join-content label input {
+		width: 460px;
+		height: 35px;
+	}
+	
+	.check-list {
+		border: 2px solid black;
+	}
+	
+	footer {
+		text-align: center;
+	}
+	
+</style>
+</head>
+<body>
+<div>
+	<header>
+		<h1 style="text-align: center;">
+			<a href="https://www.coupang.com/" target="_blank"><img src="coupang.png"></a>
+		</h1>
+	</header>
+	<main>
+		<div class="main">
+			<div><h3>회원정보를 입력해주세요</h3></div>
+			<div>
+				<div>
+					<div class="join-content">
+						<label>
+							<span><img src="email.png" style="width: 30px; border: 2px solid gray; padding: 3px; "></span>
+							<span>
+								<input type="text">
+							</span>						
+						</label>
+						<label>
+							<span><img></span>
+							<span>
+								<input type="text">
+							</span>						
+						</label>
+						<label>
+							<span><img></span>
+							<span>
+								<input type="text">
+							</span>						
+						</label>
+						<label>
+							<span><img></span>
+							<span>
+								<input type="text">
+							</span>						
+						</label>
+						<label>
+							<span><img></span>
+							<span>
+								<input type="text">
+							</span>						
+						</label>
+						<label>
+							<span><img></span>
+							<span>
+								<input type="text">
+							</span>						
+						</label>
+					</div>	
+				</div>
+			</div>
+			
+			<div>
+				<div>
+					<div>
+						<label>
+							<input type="checkbox">
+							<span>모두 확인하였으며 동의합니다</span>
+						</label>
+					
+					</div>
+				</div>
+				<span>
+				전체 동의에는 필수 및 선택 정보에 대한 동의가 포함되어 있으며, 개별적으로 동의를 선택 하실 수 있습니다. 선택 항목에 대한 동의를 거부하시는 경우에도 서비스 이용이 가능합니다.
+				</span>
+			</div>
+			<div class="check-list">
+				<ul>
+					<div>
+						<input type= "checkbox">
+						 <label><span>[필수] 만 14세 이상입니다</span></label>
+					</div>
+					<div>
+						<input type= "checkbox">
+						 <label><span>[필수] 쿠팡 이용약관 동의</span></label>
+						 <button type="button"></button>
+					</div>
+					<div>
+						<input type= "checkbox">
+						 <label><span>[필수] 전자금융거래 이용약관 동의</span></label>
+						  <button type="button"></button>
+						 
+					</div>
+					<div>
+						<input type= "checkbox">
+						 <label><span>[필수] 개인정보 수집 및 이용 동의</span></label>
+						  <button type="button"></button>
+					</div>
+					<div>
+						<input type= "checkbox">
+						 <label><span>[필수] 개인정보 제3자 제공 동의</span></label>
+						  <button type="button"></button>
+					</div>
+					<div>
+						<input type= "checkbox">
+						 <label><span>[선택] 마케팅 목적의 개인정보 수집 및 이용 동의</span></label>
+						  <button type="button"></button>
+					</div>
+					<div>
+						<input type= "checkbox">
+						 <label><span>[선택] 광고성 정보 수신 동의</span></label>
+						  <button type="button">화살</button>
+						<ul>
+							<li>
+							<input type= "checkbox">
+							<label><span>[선택] 이메일 수신 동의</span></label>
+							</li>
+							<li>
+							<input type= "checkbox">
+							<label><span>[선택] SMS, SNS 수신 동의</span></label>
+							</li>
+							<li>
+							<input type= "checkbox">
+							<label><span>[선택] 앱 푸시 수신 동의</span></label>
+							</li>
+						</ul>
+					</div>
+				</ul>
+			</div>
+			<div>
+				<button type="button">동의하고 가입하기</button>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div>
+			©Coupang Corp. All rights reserved.
+		</div>
+	</footer>
+</div>
+	
+</body>
+</html>
